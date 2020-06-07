@@ -7,7 +7,7 @@ redirect = "127.0.0.1"
 websites = ["www.instagram.com", "instagram.com", "www.facebook.com", "facebook.com", "www.youtube.com", "youtube.com", "www.twitter.com", "twitter.com"]
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 6) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 10):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 17):
         print("Working hours..")
         with open(hosts_path, 'r+') as file:
             content = file.read()
